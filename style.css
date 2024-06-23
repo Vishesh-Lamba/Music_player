@@ -223,9 +223,11 @@ body {
     flex-direction: column;
     margin-left: 13px;
     border-radius: 10px;
-    width: 69.5vw;
-    height: 40vh;
+    width: 71vw;
+    height: 70vh;
     gap:20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 
 }
 .playlist .heading{
@@ -235,26 +237,25 @@ body {
 .card{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 7px;
     margin-left:10px;
     width:10vw;
 }
 .card p{
     font-size: 12px;
-    margin-top: 4px;
 
 }
 .cardContainer{
     display: flex;
-    gap: 30px;
+    gap: 40px;
     flex-wrap: wrap;
     height: 100vh;
-    overflow-y:scroll;
     width:70vw;
 }
 .cardContainer .card img{
     object-fit: contain;
     width: 140px;
     height: 140px;
+    border-radius: 11px;
 
 }
